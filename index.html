@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+        <style>
+            del {background-color: rosybrown;}
+            ins{background-color: greenyellow;}
+        </style>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <hr>
+    <ul>
+        <li style="list-style: none;"><a href="#pc" style="text-decoration: none; color: brown;">História dos computadores</a></li>
+        <li style="list-style: none;"><a href="#clientes" style="text-decoration: none; color: brown;">O que são <i>Clients</i>?</a></li>
+        <li style="list-style: none;"><a href="#serve" style="text-decoration: none; color: brown;">O que são <i>Servers</i>?</a></li>
+        <li style="list-style: none;"><a href="#estr_html" style="text-decoration: none; color: brown;">Como é uma estrutura básica de um HTML?</a></li>
+        <li style="list-style: none;"><a href="#lista" style="text-decoration: none; color: brown;">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li style="list-style: none;"><a href="#tag" style="text-decoration: none; color: brown;">Outas TAGS</a></li>
+        <li style="list-style: none;"><a href="#link" style="text-decoration: none; color: brown;">Links de referências</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="pc">História dos computadores</h2>
+    <h6><a style="text-decoration: none;" href="#inicio"><mark> << voltar</mark></a></h6>
+
+    <p>Os computadores são mais antigos que os chamdos <i>"PC<small>S</small>"</i> como conhecemos nos dias de hoje, em sua idéia inicial era para se fazer calculos e se inicia com o <strong>"ábaco"</strong> que é de origem chinesa criado nos meados do século V a.C e foi evoluindo onde teve um grande salto durante a segunda guerra mundial por causa da corrida armamentista tendo a criação do <u><i>ENIAC</i></u> e <u><i>COLOSSUS</i></u> que foi possivel com a utilização de válvulas, após 1965 com a substituição das válvulas por transistores surgiram as computadores pessoais que chamamos de <i>PCs</i> e apartir de 1975 com a evolução da eletronica e o manuseio de novos materias os computadores se tornaram cada vez mais potentes e menores chegando nos dias de hoje com smatphones, notebooks por exemplo</p>
+
+    <h3>GERAÇÕES</h3>
+    
+    <h4>ÁBACO</h4>
+    <img width="500" height="300" src="https://s1.static.brasilescola.uol.com.br/monografias/2021/10/1-figura2.jpg">
+
+    <h4>ENIAC | COLOSSUS</h4>
+
+    <img width="500" height="300" src="https://imagens.mdig.com.br/historia/eniac.jpg"> <img width="500" height="300" src="https://tm.ibxk.com.br/2013/6/materias/4057614171359.jpg?ims=352x208">
+
+    <h4>EVOLUÇÃO DOS COMPUTADORES</h4>
+
+    <img width="800" height="300" src="https://static.todamateria.com.br/upload/56/13/5613f67821641-historia-e-evolucao-dos-computadores.jpg?auto_optimize=low">
+
+    <hr>
+    <h2>O que são <i>Clients</i>?</h2>
+    <h6><a style="text-decoration: none;" href="#inicio"><mark> << voltar</mark></a></h6>
+
+    <p>Os <strong>Clients</strong> são todo conteudo visual que os usuarios vão ver como sites (<i>parte visual</i>) e/ou tela de programa instalado.</p>
+
+    <hr>
+    <h2>O que são <i>Servers</i>?</h2>
+    <h6><a style="text-decoration: none;" href="#inicio"><mark> << voltar</mark></a></h6>
+
+    <p>Os <strong>Servers</strong> são todo conteudo que funciona por trás da tela seja na própria máquina ou em um Servidor interno ou externo.</p>
+
+    <hr>
+    <h2>Como é uma estrutura básica de um HTML?</h2>
+    <h6><a style="text-decoration: none;" href="#inicio"><mark> << voltar</mark></a></h6>
+
+    <p>O HTML significa <strong><i>HyperText Markup Language — Linguagem de Marcação de Hipertexto</i></strong>, que é usado para a criação da estrutura de um site, nele é usado um conjunto de comandos que são chamados TAGS como body / p / div, são colocados entre sinais de maior e menor e em sua maioria precisan ser fechados com sinal de menor, barra e maior.</p>
+
+    <h4>ESTRUTURA BASICA DE UM ARQUIVO HTML</h4>
+    <img width="500" height="300" src="http://meusite.mackenzie.com.br/mamelia/imagens/est2.jpg" alt="" srcset="">
+
+    <hr>
+    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <h6><a style="text-decoration: none;" href="#inicio"><mark> << voltar</mark></a></h6>
+
+    <p>Listas são como as realizadas em português e são divididas em duas as ordenadas e as não ordenadas</p>
+
+    <h4>Listas ordenadas</h4>
+    <p>As listas ordenadas são aquelas que utilizam alguma forma de crescimento de escalonado ou através de numeros (1, 2, 3, ....), letras (a, b, c, ....) ou outro modo sequêncial.</p>
+    <h5>Exemplo lista ordenada</h5>
+
+    <ol>
+        <li>ITEM 1</li>
+        <li>ITEM 2</li>
+        <li>ITEM 3
+            <ol>
+            <li>item 3.1</li>
+            <li>item 3.2</li>
+            </ol>
+        </li>
+        <li>ITEM 4</li>
+    </ol>
+
+    <h4>Listas não ordenadas</h4>
+    <p>As listas não ordenadas são feitas através de marcadores como bolas, sinais de correto, asterisco, geralemte utilizada para mostras itens sem ordem de prioridade;</p>
+
+    <h5>Exemplo lista não ordenada</h5>
+
+    <ul>
+        <ul>
+            <li>ARROZ</li>
+            <li>FEIJAO</li>
+            <li>MACARRÃO</li>
+        </ul>
+    </ul>
+
+    <hr>
+    <h2 id="tag">Outras TAGS</h2>
+    <h6><a style="text-decoration: none;" href="#inicio"><mark> << voltar</mark></a></h6>
+
+    <p>Existem muitas tags que podem ser usadas no HTML abaixo irei mostrar mais algumas para exemplificar</p>
+
+    <p>Temos a tag abbr que serve para quanto se utiliza uma abreviação e ao se passar o mouse por cima ele nostra o nome o significado ao qual você escreveu na caracteristica <strong>'title'</strong> , exemplo: <strong>A <abbr title="Organização Mundial da Saúde">OMS</abbr> foi fundada em 1948.</strong><small>(utilizado exemplo do site <i><u>w3schools</u></i></small>)</p>
+
+    <p>A tag <strong><i>small</i></strong> serve pra diminuir as letras do tamanho normal que esta sendo exibida, por exemplo: SMALL -  <small>SMALL</small></p>
+
+    <p>Utilizando a tag <strong><i>sub</i></strong>, nesse exemplo esta sendo moficicados os números: x <sub>1</sub> + x <sub>2</sub> = x <sub>3</sub></p>
+
+    <p>Utilizando a tag <strong><i>sup</i></strong>, nesse exemplo esta sendo moficicados os números: x <sup>1</sup> + x <sup>2</sup> = x <sup>3</sup></p>
+
+    <p>Utilização da tag  <strong><i>blockquote</i></strong> serve para fazer citações
+        <blockquote cite="https://comofazercitacao.com.br/citacao-direta-curta/">
+            <p><i>“É importante estudar as mudanças no perfil do professor e entender o quanto a imagem que se tem desse profissional corresponde à situação real da profissão.”</i> (CARVALHO, M. R. V., 2018, p. 62)</p>
+        </blockquote>
+    </p>
+
+    <p> Temos algumas tags que não são mais usadas, foram transformadas e utilizadas como uma propriedade de estilização diratemanete da tag ou com a propriedade "style" no head como: font, del</p>
+    <p style="color:red">Estilizado diretamente na tag "a"</p>
+
+    <p>Estilizando direto no head usando style com as constantes del <del>blue</del> e ins <ins>red</ins></p>
+
+
+    <hr>
+    <h2 id="link">Links de referências</h2>
+    <h6><a style="text-decoration: none;" href="#inicio"><mark> << voltar</mark></a></h6>
+    <ul>
+        <li><a style="text-decoration: none;" target="_blank" href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/">TodaMateria</a></li>
+        <br>
+        <li><a style="text-decoration: none;" target="_blank" href="https://www.totvs.com/blog/developers/o-que-e-html/#:~:text=Sigla%20para%20HyperText%20Markup%20Language,vídeos%2C%20por%20meio%20dos%20hipertextos.">Totvs</a></li>
+        <br>
+        <li><a style="text-decoration: none;" target="_blank" href="https://www.w3schools.com"></a>w3schools</li>
+        <br>
+    </ul>
+
+</body>
+</html>
